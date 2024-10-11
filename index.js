@@ -41,7 +41,7 @@ function createMessage(f) {
  */
 function rand(limit) {
   // TODO
-  return Math.floor(Math.random() * limit);
+  return Math.round(Math.random() * limit);
 }
 
 // -------------------- DO NOT CHANGE THE CODE BELOW ---------------------- //
